@@ -1,38 +1,27 @@
 import React from "react";
-import styled from "@emotion/styled";
+
+import tw, { styled } from "twin.macro";
 
 const AppContainer = styled.div`
-  height: 100vh;
+  ${tw`h-screen w-screen flex flex-col items-center `}
   min-height: 100vh;
-  width: 100vw;
   min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
 `;
 
 const Header = styled.header`
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  text-align: center;
+  ${tw`bg-gray-300 text-3xl flex items-center justify-center w-full`}
 `;
 
 const Main = styled.main`
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 100%;
-  text-align: center;
+  ${tw`bg-gray-100 text-lg text-center w-full h-full`}
 `;
 
 const Footer = styled.footer`
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  text-align: center;
+  ${tw`bg-gray-300 text-xl flex items-center justify-center w-full`}
 `;
 
 const StyledText = styled.span`
-  color: maroon;
+  ${tw`text-purple-500 leading-8`}
 `;
 
 const App: React.FC = () => {
