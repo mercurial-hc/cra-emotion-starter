@@ -1,0 +1,22 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  build-and-test:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: yarn
+            - run: yarn build:analyze
+            - run: yarn test
+      - store_test_results:
+          path: coverage
+      - store_test_results:
+          path: dist
+workflows:
+  build-and-test:
+    jobs:
+      - build-and-test
