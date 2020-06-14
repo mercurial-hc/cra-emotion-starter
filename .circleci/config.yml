@@ -13,9 +13,9 @@ jobs:
             - run: yarn build:analyze
             - run: yarn test
       - store_test_results:
-          path: coverage
+          path: ~/project/coverage
       - store_test_results:
-          path: dist
+          path: ~/project/dist
 workflows:
   build-and-test:
     jobs:
