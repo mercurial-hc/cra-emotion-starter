@@ -61,7 +61,7 @@
     "lint-staged": ">=10",
     "prettier": "^2.0.5",
     "react-app-rewired": "^2.1.6",
-    "tailwindcss": "^1.4.6",
+    "tailwindcss": "^1.6.2",
     "twin.macro": "^1.7.0",
     "typescript-plugin-tw-template": "^2.0.1",
     "webpack-bundle-analyzer": "^3.8.0"
