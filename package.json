@@ -64,7 +64,7 @@
     "tailwindcss": "^1.7.6",
     "twin.macro": "^1.7.0",
     "typescript-plugin-tw-template": "^2.0.1",
-    "webpack-bundle-analyzer": "^3.8.0"
+    "webpack-bundle-analyzer": "^4.4.0"
   },
   "husky": {
     "hooks": {
