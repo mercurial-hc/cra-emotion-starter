@@ -57,7 +57,7 @@
     "customize-cra": "^1.0.0",
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.20.0",
-    "husky": ">=4",
+    "husky": ">=5",
     "lint-staged": ">=10",
     "prettier": "^2.0.5",
     "react-app-rewired": "^2.1.6",
